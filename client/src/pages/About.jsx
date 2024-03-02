@@ -1,7 +1,14 @@
 export default function About() {
-  const handleClick = () => {
-    window.location.replace("https://github.com/The-0mnipotent");
+  const handleClick1 = () => {
+    window.location.replace("https://github.com/The-0mnipotent/property-pulse");
   };
+  const handleClick2 = () => {
+    window.location.replace("https://arpit-singh.netlify.app");
+  };
+  const handleClick3 = () => {
+    window.location.replace("https://www.linkedin.com/in/contact-arpit-singh");
+  };
+  
   return (
     <div className="py-20 px-4 max-w-6xl mx-auto">
       <h1 className="text-3xl font-bold mb-4 text-slate-800">
@@ -34,13 +41,27 @@ export default function About() {
         <li>express: 4.18.2</li>
         <li>jsonwebtoken: 9.0.2</li>
         <li>mongoose: 7.5.0</li>
+        <li>Google OAuth</li>
       </p>
       <p className="mb-4 text-slate-700">
-        Github link :{" "}
-        <button onClick={handleClick}>
-          https://github.com/The-0mnipotent/
+        Know More About me :{" "}
+        <button onClick={handleClick1}>
+          https://arpit-singh.netlify.app
         </button>
       </p>
+      <p className="mb-4 text-slate-700">
+        Get the Source Code :{" "}
+        <button onClick={handleClick2}>
+          https://github.com/The-0mnipotent/property-pulse
+        </button>
+      </p>
+      <p className="mb-4 text-slate-700">
+        CheckOut my LinkedIn :{" "}
+        <button onClick={handleClick3}>
+          https://www.linkedin.com/in/contact-arpit-singh
+        </button>
+      </p>
+      
     </div>
   );
 }
