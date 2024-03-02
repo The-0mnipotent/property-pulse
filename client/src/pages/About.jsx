@@ -1,7 +1,4 @@
 export default function About() {
-  const handleClick = () => {
-    window.location.replace("https://github.com/The-0mnipotent");
-  };
   return (
     <div className="py-20 px-4 max-w-6xl mx-auto">
       <h1 className="text-3xl font-bold mb-4 text-slate-800">
@@ -36,16 +33,7 @@ export default function About() {
         <li>mongoose: 7.5.0</li>
         <li>Google OAuth</li>
       </p>
-      <p className="mb-4 text-slate-700">
-        Know More About me :{" "}
-        <button onClick={handleClick1}>https://arpit-singh.netlify.app</button>
-      </p>
-      <p className="mb-4 text-slate-700">
-        Get the Source Code :{" "}
-        <button onClick={handleClick2}>
-          https://github.com/The-0mnipotent/property-pulse
-        </button>
-      </p>
+
       <p className="mb-4 text-slate-700 ">
         Know More About me :{" "}
         <button
@@ -62,16 +50,27 @@ export default function About() {
         <button
           className="bg-gray hover:text-col1"
           onClick={() => {
-            window.open("https://github.com/The-0mnipotent/MERNStay", "_blank");
+            window.open(
+              "https://github.com/The-0mnipotent/property-pulse",
+              "_blank"
+            );
           }}
         >
-          https://github.com/The-0mnipotent/MERNStay
+          https://github.com/The-0mnipotent/property-pulse
         </button>
       </p>
       <p className="mb-4 text-slate-700">
-        Github link :{" "}
-        <button onClick={handleClick}>
-          https://github.com/The-0mnipotent/
+        Checkout my LinkedIn :{" "}
+        <button
+          className="bg-gray hover:text-col1"
+          onClick={() => {
+            window.open(
+              "https://www.linkedin.com/in/contact-arpit-singh/",
+              "_blank"
+            );
+          }}
+        >
+          https://www.linkedin.com/in/contact-arpit-singh
         </button>
       </p>
     </div>
