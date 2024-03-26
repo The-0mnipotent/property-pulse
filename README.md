@@ -2,7 +2,7 @@
 
 ## Description
 
-Property Pulse is a comprehensive real estate platform built using the MERN stack (MongoDB, Express.js, React.js, Node.js), offering a seamless experience for users searching, listing, renting, and selling properties. With Google OAuth integration, users can securely authenticate and manage their profiles, while property owners can easily list their properties for rent or sale. Property Pulse facilitates secure CRUD operations, enabling users to create, read, update, and delete their listings and profiles. Featuring intuitive property search functionality, detailed property listings, financial analytics, maintenance tracking, and reporting tools, Property Pulse empowers both property seekers and owners with all the necessary tools to efficiently manage their real estate transactions.
+Property Pulse is a comprehensive real estate platform built using the MERN stack (MongoDB, Express.js, React.js, Node.js), offering a seamless experience for users searching, listing, renting, and selling properties. With Google OAuth integration, users can securely authenticate and manage their profiles, while property owners can easily list their properties for rent or sale. Property Pulse facilitates secure CRUD operations, enabling users to create, read, update, and delete their listings and profiles. Featuring intuitive property search functionality and detailed property listings.
 
 ## Features
 
